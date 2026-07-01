@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.video-container {
+  @apply w-full h-full bg-black rounded-lg overflow-hidden;
+}
+
+.timeline {
+  @apply bg-gray-900 border-t border-gray-700;
+}
+
+.editor-panel {
+  @apply bg-gray-800 p-4 rounded-lg;
+}
